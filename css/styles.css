@@ -143,6 +143,15 @@ nav a {
 .contact a:active {
   color: var(--selection-color);
 }
+/* obrazy svg */
+.svg-contact-mail {
+  width: 16px;
+  height: 12px;
+}
+.svg-contact-phone {
+  width: 10px;
+  height: 16px;
+}
 
 /* end-navigation menu */
 
@@ -212,7 +221,6 @@ nav a {
   margin-bottom: 10px;
   justify-content: center;
   color: var(--bodytext-color);
-  
 }
 
 .text-about {
@@ -244,6 +252,11 @@ nav a {
   margin-left: 0px;
   margin-right: 0px;
   list-style-type: none;
+}
+/* lorem images */
+.svg-lorem-images {
+  width: 270px;
+  height: 120px;
 }
 /* end - lorem section */
 
@@ -309,16 +322,20 @@ nav a {
 }
 
 .teamcard-figure {
-  padding-bottom: 94px;
   justify-content: center;
   display: block;
-  background-color: var(--main-white);
   width: 270px;
-  height: 368px;
+  height: auto;
   margin: 0px;
+}
+.teamcard-cards {
+  background-color: var(--main-white);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.teamcard-list > li {
+  list-style-type: none;
 }
 
 .teamcard-list {
@@ -329,6 +346,38 @@ nav a {
   width: auto;
 }
 
+/* svg-teamcard */
+.svg-teamcard-sl {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+  margin-top: 16px;
+  width: 206px;
+  height: auto;
+}
+.svg-teamcard-sl > .teamcard-sl-box:not(:last-child) {
+  margin-right: 10px;
+}
+.teamcard-sl-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+.teamcard-sl-box:hover,
+.teamcard-sl-box:focus,
+.teamcard-sl-box:active {
+  background: var(--selection-color);
+  border-radius: 50%;
+
+}
+.svg-teamcard-sl-item {
+  width: 20px;
+  height: 20px;
+}
+/* team - section */
 .team-caption > .upper-caption {
   justify-content: center;
   font-weight: 500;
@@ -343,12 +392,7 @@ nav a {
 .team-caption {
   display: block;
   padding-top: 30px;
-  padding-bottom: 30px;
   text-align: center;
-}
-
-.teamcard-list > li {
-  list-style-type: none;
 }
 
 .team-caption .upper-caption {
@@ -364,7 +408,6 @@ nav a {
   line-height: 1.46;
   letter-spacing: 0.03;
 }
-
 /* end- teamcard section */
 /* footer */
 /* logo-bottom */
