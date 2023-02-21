@@ -173,7 +173,7 @@ nav a {
   color: var(--main-white);
   width: auto;
 }
-images/main.jpg
+
 .main-section-background {
   display: flex;
   justify-content: center;
@@ -194,6 +194,7 @@ images/main.jpg
   background-position: center;
   background-size: contain;
   max-width: 1600px;
+
 }
 
 .main-button.heigh-button {
