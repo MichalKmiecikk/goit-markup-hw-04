@@ -240,12 +240,6 @@ nav a {
 }
 
 .text-about {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
-  text-align: left;
-  width: 270px;
 }
 
 .lorem-section-area .container {
@@ -256,6 +250,15 @@ nav a {
 .lorem-area {
   width: 270px;
   height: auto;
+}
+.lorem-area > .text-about {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--text-color);
+  text-align: left;
+  width: 270px;
 }
 .lorem-area:not(:last-child) {
   margin-right: 30px;
@@ -492,16 +495,19 @@ nav a {
 /* end- teamcard section */
 /* footer */
 /* logo-bottom */
-.logo-web-bottom,
-.logo-studio-bottom {
+.whole-footer .logo-web-bottom,
+.whole-footer .logo-studio-bottom {
   margin-bottom: 20px;
   font-family: "Raleway";
   font-size: 26px;
-  font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 0.03;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
-
+.footer-area > a {
+  text-decoration: none;
+}
 .logo-web-bottom {
   color: var(--selection-color);
 }
