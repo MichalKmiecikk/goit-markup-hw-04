@@ -190,7 +190,7 @@ nav a {
       rgba(47, 48, 58, 0.4) 0%,
       rgba(47, 48, 58, 0.4) 0%
     ),
-    url(https://images/main.jpg);
+    url("images/main.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
