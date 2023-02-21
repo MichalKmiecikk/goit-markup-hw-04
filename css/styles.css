@@ -144,6 +144,7 @@ nav a {
 .contact a:focus,
 .contact a:active {
   color: var(--selection-color);
+  fill: var(--selection-color);
 }
 /* obrazy svg */
 .svg-contact-mail {
@@ -492,7 +493,6 @@ nav a {
 /* logo-bottom */
 .logo-web-bottom,
 .logo-studio-bottom {
-  display: inline-block;
   margin-bottom: 20px;
   font-family: "Raleway";
   font-size: 26px;
@@ -515,13 +515,27 @@ footer {
   background-color: var(--footerbackground-color);
   width: auto;
 }
-.footer-area {
-  text-align: left;
+.whole-footer {
+  display: flex;
+  width: 1200px;
   height: 252px;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 60px 0px;
 }
-
+.footer-area {
+  width: auto;
+}
+.footer-area.container {
+  padding: 60px 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: auto;
+}
+.footer-contacts-list {
+  width: auto;
+  margin-right: 70px;
+}
 .footer-contacts-list .site {
   color: var(--main-white);
 }
@@ -546,10 +560,10 @@ footer {
 .footer-contacts-list {
   padding-left: 0px;
 }
-
+.footer-contacts-list li:nth-child(1) {
+  margin-top: 20px;
+}
 .footer-contacts-list li {
-  display: block;
-  justify-content: flex-start;
   padding-bottom: 9px;
   margin-right: 70px;
   margin-left: 0px;
@@ -576,15 +590,12 @@ footer {
 }
 .footer-sl-area {
   display: flex;
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
   width: 206px;
-  height: auto;
-  background-color: red;
+  height: 100px;
 }
-
 .footer-sl-area > .footer-sl-box:not(:last-child) {
   margin-right: 10px;
 }
