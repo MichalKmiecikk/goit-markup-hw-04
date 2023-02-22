@@ -1,3 +1,10 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: var(--bodytext-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
 :root {
   --text-color: #757575;
   --selection-color: #2196f3;
@@ -18,13 +25,6 @@ h6,
 p,
 ul {
   margin: 0px;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--bodytext-color);
-  font-size: 16px;
-  font-weight: 400;
 }
 
 section {
